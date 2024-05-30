@@ -4,6 +4,7 @@ import Gallary from './sections/Gallery'
 import Secondsection from './sections/Secondsection'
 import Footer from './sections/Footer'
 import Profile from './sections/Profile'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Gallary />
         <Secondsection />
         <Footer />
+        <Analytics/>
       </div>
     </div>
   )
